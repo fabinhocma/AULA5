@@ -1,2 +1,15 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+import java.util.Scanner;
+
+ class main{
+  public static void main(String[] args){
+    double n1 , n2 = 0;
+    Scanner teste = new Scanner (System.in);
+
+    System.out.println("Digite o tamanho em metros :");
+    n1 = teste.nextDouble();
+
+    n2 = n1 * 100;
+
+    System.out.println("O tamanho em centimetros foi:"+ n2);
+ }
+}
